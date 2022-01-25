@@ -1,0 +1,18 @@
+{
+  "simulation": "com.companyname.projectname.simulations.GetCountriesSimulation",
+  "simulationId": "getcountriessimulation",
+  "start": 1643120482533,
+  "description": "",
+  "scenarios": ["get countries"],
+  "assertions": [
+{
+  "path": "get countries",
+  "target": "max of response time",
+  "condition": "is between inclusive",
+  "expectedValues": [0.0,2.0],
+  "result": false,
+  "message": "get countries: max of response time is between inclusive 0.0 and 2.0",
+  "actualValue": [1597.0]
+}
+  ]
+}

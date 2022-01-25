@@ -1,0 +1,5 @@
+<testsuite name="com.companyname.projectname.simulations.GetCountriesSimulation" tests="1" errors="0" failures="1" time="0">
+<testcase name="get countries: max of response time is between inclusive 0.0 and 2.0" status="false" time="0">
+  <failure type="get countries">Actual value: 1597.0</failure>
+</testcase>
+</testsuite>
