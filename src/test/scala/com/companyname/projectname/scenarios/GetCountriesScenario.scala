@@ -10,7 +10,7 @@ class GetCountriesScenario {
 
   def getCountries(): HttpRequestBuilder =
     http("get countries")
-      .get("/all")
+      .get("/users?page=2")
       .check(status.is(200))
 
   def getCountriesScenario: ScenarioBuilder =

@@ -8,9 +8,9 @@ import scala.concurrent.duration.DurationInt
 
 class GetCountriesSimulation extends Simulation {
 
-  val Headers = Map ("x-rapidapi-host" -> "restcountries-v1.p.rapidapi.com", "x-rapidapi-key" -> "bf96595661mshdcb8f0e0407e3f7p10671djsn30e45bc5d48a")
+ // val Headers = Map ("x-rapidapi-host" -> "restcountries-v1.p.rapidapi.com", "x-rapidapi-key" -> "bf96595661mshdcb8f0e0407e3f7p10671djsn30e45bc5d48a")
 
-  val HttpProtocol = http.baseUrl("https://restcountries-v1.p.rapidapi.com").headers(Headers)
+  val HttpProtocol = http.baseUrl("https://reqres.in/api")
 
   val scenario = new GetCountriesScenario
 
